@@ -8,7 +8,7 @@
     <header class = "main header">
       <div class="container">
         <div class="iindex-logo">
-            <img src="http://placehold.it/150x100" width="368" height="204" alt="Логотип Нердс»">
+          <a class="img-logos" href="#">  <img src="http://placehold.it/150x100" width="368" height="204" alt="Логотип Нердс»"></a>
         </div>
         <nav class="main-navigation">
         <ul>
@@ -52,58 +52,75 @@
      </div>
      <div class="feautures">
        <div class="type-of-grid">
+         <form action="#" method="post">
          <p> Сетка</p>
-         <ul>
-           <li>Адаптивная</li>
-           <li>Фиксированная</li>
-           <li>Резиновая</li>
-        </ul>
-     </div>
-     <div class="specific-features">
-       <p>Особенности:</p>
-       <ul>
-         <li>Слайдер</li>
-         <li>Блок преимуществ</li>
-         <li>Новости</li>
-         <li>Галерея</li>
-         <li>Корзина</li>
-      </ul>
+           <label>
+             <input type = "radio" name = "type-of-grid" value = "a" checked>
+            <p> Адаптивная</p>
+           </label>
+           <label>
+             <input type = "radio" name = "type-of-grid" value = "b">
+             <p>Фиксированная</p>
+           </label>
+           <label>
+             <input type = "radio" name = "type-of-grid" value = "c">
+             <p>Резиновая</p>
+           </label>
+         </form>
+       </div>
+       <div class="specific-features">
+         <form>
+           <p>Особенности:</p>
+           <label>
+              <input type="checkbox" name = "sld" checked>
+              <p>  Слайдер</p>
+           </label>
+           <label>
+            <input type="checkbox" name = "block-of-advantage" >
+            <p>  Блок преимуществ</p>
+          </label>
+          <label>
+            <input type="checkbox" name = "news" checked>
+            <p>Новости</p>
+          </label>
+          <label>
+            <input name = "gallery" type="checkbox" >
+            <p>Галерея</p>
+          </label>
+          <label>
+            <input type="checkbox" name = "basket" >
+            <p>Корзина</p>
+          </label>
+          <div class="show">
+             <input type = "submit" value="Показать">
+          </div>
+        </form>
     </div>
-    <div class="show">
-      <a class="show-btn" href="#">Показать</a>
-    </div>
-  </div>
-  <div class="selection-result">
-    <div class="sort">
-     Сортировать
-     <ul>
+    <div class="selection-result">
+      <div class="sort">
+      <p>Сортировать:</p>
+      <ul>
        <li><a class="show-btn" href="#">По цене</a></li>
        <li><a class="show-btn" href="#">По типу</a></li>
        <li><a class="show-btn" href="#">По функционалу</a></li>
      </ul>
    </div>
    <div class="result-table">
-     <table>
-       <tr>
-         <td><a class="img-choice" href="#"><img src="http://placehold.it/150x100" width="368" height="204" alt="Картинка макета"></a></td>
-         <td><a class="img-choice" href="#"><img src="http://placehold.it/150x100" width="368" height="204" alt="Картинка макета"></a></td>
-      </tr>
-      <tr>
-        <td><a class="img-choice" href="#"><img src="http://placehold.it/150x100" width="368" height="204" alt="Картинка макета"></a></td>
-        <td><a class="img-choice" href="#"><img src="http://placehold.it/150x100" width="368" height="204" alt="Картинка макета"></a></td>
-     </tr>
-     <tr>
-       <td><a class="img-choice" href="#"><img src="http://placehold.it/150x100" width="368" height="204" alt="Картинка макета"></a></td>
-       <td><a class="img-choice" href="#"><img src="http://placehold.it/150x100" width="368" height="204" alt="Картинка макета"></a></td>
-    </tr>
-    </table>
+     <ul>
+       <li><a class="img-choice" href="#"><img src="http://placehold.it/150x100" width="368" height="204" alt="Картинка макета"></a></li>
+       <li><a class="img-choice" href="#"><img src="http://placehold.it/150x100" width="368" height="204" alt="Картинка макета"></a></li>
+       <li><a class="img-choice" href="#"><img src="http://placehold.it/150x100" width="368" height="204" alt="Картинка макета"></a></li>
+       <li><a class="img-choice" href="#"><img src="http://placehold.it/150x100" width="368" height="204" alt="Картинка макета"></a></li>
+       <li><a class="img-choice" href="#"><img src="http://placehold.it/150x100" width="368" height="204" alt="Картинка макета"></a></li>
+       <li><a class="img-choice" href="#"><img src="http://placehold.it/150x100" width="368" height="204" alt="Картинка макета"></a></li>
+    </ul>
   </div>
-    <div class="number-of-page">
+  <div class="number-of-page">
       <ul>
-        <li><div class="number"><a  href="#">1</div></a></li>
-        <li><div class="number"><a  href="#">2</div></a></li>
-        <li><div class="number"><a  href="#">3</div></a></li>
-        <li><div class="next-page"><a  href="#">Следующая</div></a></li>
+        <div class="number"><li><a  href="#">1</a></li></div> <!-- Активная страница не является ссылкой -->
+        <div class="number"><li><a  href="#">2</a></li></div>
+        <div class="number"><li><a  href="#">3</a></li></div>
+        <div class="next-page"><li><a  href="#">Следующая</a></li></div>
     </div>
   </div>
  </main>
