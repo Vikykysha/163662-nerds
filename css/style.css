@@ -1,0 +1,91 @@
+
+h1{
+  font-family: Roboto;
+  font-weight: 500;
+  font-size:  40px;
+  color: #000000;
+  letter-spacing: auto;
+}
+p,
+.filter>p,
+.price-controls {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size:  18px;
+  color: #000000;
+  letter-spacing: 0.03em;
+}
+input + p {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size:  16px;
+  color: #283136;
+  letter-spacing: 0.02em;
+}
+.sort>p {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size:  12px;
+  color: #000000;
+  letter-spacing: 0.018em;
+}
+li>.show-btn  {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size:  12px;
+  color: #000000;
+  letter-spacing: 0.018em;
+}
+.address>p {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size:  16px;
+  color: #000000;
+  letter-spacing: 0.03em;
+}
+.address {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size:  16px;
+  color: #666666;
+  letter-spacing: 0.02em;
+}
+.lets-friend {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size:  36px;
+  color: #000000;
+  letter-spacing: 0.036em;
+}
+.lets-friend +p {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size:  16px;
+  color: #283136;
+  letter-spacing: 0.022em;
+}
+h1 + p,
+h3 + p {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size:  16px;
+  color: #283136;
+  letter-spacing: 0.022em;
+}
+p > b {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size:  36px;
+  color: #000000;
+  letter-spacing: 0.036em;
+}
+.diff-opt> li>p,
+.date>p,
+.date + p,
+.how-we-work> li>p{
+  font-family: Roboto;
+  font-weight: 500;
+  font-size:  16px;
+  color: #283136;
+  letter-spacing: 0.022em;
+}
