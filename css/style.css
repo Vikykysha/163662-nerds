@@ -1,91 +1,78 @@
-
-h1{
-  font-family: Roboto;
-  font-weight: 500;
+body {
+font-family:Roboto;
+font-weight:500;
+font-size:16px;
+color: #000000;
+line-height: 30px;
+}
+h1 {
   font-size:  40px;
-  color: #000000;
-  letter-spacing: auto;
+  line-height: auto;
 }
-p,
-.filter>p,
-.price-controls {
-  font-family: Roboto;
-  font-weight: 500;
-  font-size:  18px;
-  color: #000000;
-  letter-spacing: 0.03em;
+.main-navigation-link {
+  font-size:  14px;
 }
-input + p {
-  font-family: Roboto;
-  font-weight: 500;
-  font-size:  16px;
+.definition-text {
+  line-height: 22px;
   color: #283136;
-  letter-spacing: 0.02em;
 }
-.sort>p {
-  font-family: Roboto;
-  font-weight: 500;
+.know-btn {
   font-size:  12px;
-  color: #000000;
-  letter-spacing: 0.018em;
+  line-height: 18px;
+  color: #ffffff;
 }
-li>.show-btn  {
-  font-family: Roboto;
-  font-weight: 500;
-  font-size:  12px;
-  color: #000000;
-  letter-spacing: 0.018em;
+h3 {
+  font-size:  18px;
 }
-.address>p {
-  font-family: Roboto;
-  font-weight: 500;
+.option-info-text {
+  font-size:  15px;
+  line-height: 22px;
+  color: #283136;
+}
+.about-us-left-title {
+  font-size:  36px;
+  line-height: 36px;
+}
+.about-us-text {
   font-size:  16px;
-  color: #000000;
-  letter-spacing: 0.03em;
+  line-height: 22px;
+  color: #283136;
 }
-.address {
-  font-family: Roboto;
-  font-weight: 500;
-  font-size:  16px;
+.since {
+  line-height: 8.56px;
+}
+.address-text {
+  line-height: 20px;
   color: #666666;
-  letter-spacing: 0.02em;
 }
 .lets-friend {
-  font-family: Roboto;
-  font-weight: 500;
   font-size:  36px;
-  color: #000000;
-  letter-spacing: 0.036em;
+  line-height: 36px;
 }
-.lets-friend +p {
-  font-family: Roboto;
-  font-weight: 500;
+.filter-option  {
+  font-size:  18px;
+  line-height: 30px;
+}
+.filter-choice {
   font-size:  16px;
+  line-height: 20px;
   color: #283136;
-  letter-spacing: 0.022em;
 }
-h1 + p,
-h3 + p {
-  font-family: Roboto;
-  font-weight: 500;
-  font-size:  16px;
+.sort {
+  font-size:  12px;
+  line-height: 18px;
+}
+.div-on-img-choice-title {
+  font-size:  18px;
+  line-height: 8.56px;
+}
+.div-on-img-choice-text {
+  font-size:  14px;
+  line-height: 18px;
   color: #283136;
-  letter-spacing: 0.022em;
 }
-p > b {
-  font-family: Roboto;
-  font-weight: 500;
-  font-size:  36px;
-  color: #000000;
-  letter-spacing: 0.036em;
-}
-.diff-opt> li>p,
-.date>p,
-.date + p,
-.how-we-work> li>p{
-  font-family: Roboto;
-  font-weight: 500;
-  font-size:  16px;
-  color: #283136;
-  letter-spacing: 0.022em;
+.button-action {
+  font-size:  18px;
+  line-height: 8.56px;
+  color: #ffffff;
 }
