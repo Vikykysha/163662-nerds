@@ -32,10 +32,13 @@ h3 {
 .about-us-left-title {
   font-size:  36px;
   line-height: 36px;
+  padding-top:40px;
+  width:526px;
 }
 .about-us-text {
   font-size:  16px;
   line-height: 22px;
+  width:578px;
   color: #283136;
 }
 .since {
@@ -61,6 +64,7 @@ h3 {
 .sort {
   font-size:  12px;
   line-height: 18px;
+  margin-right: 40px;
 }
 .div-on-img-choice-title {
   font-size:  18px;
@@ -75,4 +79,245 @@ h3 {
   font-size:  18px;
   line-height: 8.56px;
   color: #ffffff;
+}
+.main-header {
+  outline:2px solid green;
+  margin-bottom: 80px;
+}
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+.container {
+  width: 880px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.iindex-logo {
+  float:left;
+  outline:2px solid green;
+}
+.main-navigation {
+  width:400px;
+  float:left;
+  outline:2px solid green;
+  margin-left: 160px;
+  margin-bottom:40px;
+
+}
+.user-block {
+  min-height: 70px;
+  float:right;
+  outline:2px solid green;
+  width:110px;
+
+}
+.slider {
+  clear:both;
+  outline:2px solid green;
+}
+.slider-text {
+  float:left;
+  width: 380px;
+}
+.slider-img {
+  float:right;
+}
+.option {
+  outline:2px solid green;
+  width: 880px;
+}
+.about-us {
+  outline:2px solid green;
+}
+.offers {
+  outline:2px solid green;
+}
+.option-offers {
+  outline:2px solid green;
+  float:left;
+  width:240px;
+  margin-right:80px;
+}
+.offers{
+  margin-right: 0;
+  padding:0;
+  margin:0;
+}
+.option-offers:last-child {
+  margin-right: 0;
+}
+.about-us-left {
+  float:left;
+  width:590px;
+}
+.about-us-right {
+  float:right;
+  width:250px;
+}
+.since {
+  text-align: center;
+}
+.about-us-right-logo {
+  padding-left:32px;
+  padding-right: 32px;
+  padding-top: 33px;
+}
+.logos {
+  clear:both;
+  outline:2px solid green;
+}
+.logos-ul {
+  float:left;
+  padding: 30px 0;
+  margin:0;
+  outline:2px solid green;
+}
+.map {
+  clear:both;
+  outline:2px solid green;
+}
+.map-info {
+  outline:2px solid green;
+}
+.footer-social-left {
+float:left;
+width: 240px;
+margin-right:70px;
+outline:2px solid green;
+}
+.footer-social-right{
+  float:right;
+  width: 550px;
+  outline:2px solid green;
+}
+.main-footer{
+  outline:2px solid green;
+  margin-top: 75px;
+  margin-bottom:75px;
+}
+.greetings {
+  clear:both;
+  outline:2px solid green;
+}
+.selection {
+  outline:2px solid green;
+
+}
+.detail-choice {
+  outline:2px solid green;
+  float:left;
+  width:240px;
+}
+.filter {
+  outline:2px solid green;
+}
+.selection-result{
+  outline:2px solid green;
+  float:right;
+  width:560px;
+}
+.result-table-ul {
+  outline:4px solid yellow;
+  margin:0px;
+  padding:0;
+}
+.result-table-li {
+  display: inline-block;
+  outline:2px solid black;
+  margin-right: 75px;
+  margin-bottom: 80px;
+}
+.result-table-li:nth-child(2n) {
+  margin-right: 0px;
+}
+.number-of-page-li {
+  margin-right: 26px;
+  padding:15px;
+}
+.main-navigation-li{
+  display: inline-block;
+  margin-right:40px;
+  outline:2px solid black;
+}
+.contact {
+  margin-right:0px;
+}
+.logos-li {
+  display: inline-block;
+  margin-right:100px;
+  vertical-align: middle;
+}
+.logos-li:last-child {
+  margin-right: 0;
+}
+.sort-li {
+  display: inline-block;
+  outline:2px solid yellow;
+  margin-right: 40px;
+}
+.sort-ul {
+  display: inline-block;
+  padding:0;
+  margin:0;
+  outline:2px solid yellow;
+}
+.number-of-page-li {
+  display: inline-block;
+  outline:2px solid black;
+}
+.number-of-page-ul {
+  padding:0;
+  margin:0;
+  outline:6px solid red;
+}
+.slider-ul {
+padding:0;
+margin:0;
+outline:6px solid red;
+}
+.main-navigation {
+  margin-left:180px;
+  margin-right:60px;
+  padding:0;
+  width:350px;
+  outline:3px solid black;
+}
+.main-navigation-ul {
+  padding:0;
+  margin:0;
+  outline:4px solid pink;
+}
+.address{
+  width:256px;
+  padding-top:36px;
+  padding-bottom:36px;
+  outline:4px solid pink;
+}
+.address {
+  padding:35px;
+  outline:4px solid pink;
+}
+.social-btn  {
+  margin-right: 27px;
+}
+.social-btn :last-child {
+  margin-right: 0;
+}
+.greetings {
+  margin-top:70px;
+  margin-bottom: 86px;
+  margin-left:107px;
+  width:657px;
+  text-align: center;
+}
+.filter {
+  width:240px;
+  outline:4px solid pink;
+}
+.min-price,
+.max-price {
+  width:80px;
 }

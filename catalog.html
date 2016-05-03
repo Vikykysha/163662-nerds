@@ -6,23 +6,23 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <header class = "main header">
-      <div class="container">
+    <header class = "main-header">
+      <div class="container clearfix">
         <div class="iindex-logo">
-          <a class="img-logos" href="#">  <img src="img/nerdslogo.png" width="368" height="204" alt="Логотип Нердс»"></a>
+          <a class="img-logos" href="#">  <img src="img/nerdslogo.png" width="140" height="60" alt="Логотип Нердс»"></a>
         </div>
         <nav class="main-navigation">
-        <ul>
-            <li>
+        <ul  class="main-navigation-ul">
+            <li class="main-navigation-li">
               <a class = "main-navigation-link" href="#">Студия</a>
             </li>
-            <li>
+            <li class="main-navigation-li">
               <a class = "main-navigation-link" href="#">Клиенты</a>
             </li>
-            <li>
+            <li class="main-navigation-li">
               <a class = "main-navigation-link" href="#">Магазин</a>
             </li>
-            <li>
+            <li class="main-navigation-li">
               <a class = "main-navigation-link" href="#">Контакты</a>
             </li>
           </ul>
@@ -35,12 +35,13 @@
         </div>
       </div>
     </header>
-    <main class="container">
-      <div class="selection">
-        <div class="filter">
+    <main class="container clearfix">
+    <div class="selection clearfix">
+      <div class="detail-choice ">
+        <div class="filter clearfix">
           <p class= "filter-option ">Стоимость:</p>
-          <div class="range-filter">
-           <div class="range-controls">
+          <div class="range-filter ">
+           <div class="range-controls ">
                <div class="scale"></div>
                <div class="toggle min-toggle"></div>
                <div class="toggle max-toggle"></div>
@@ -56,59 +57,80 @@
          <form action="#" method="post">
          <p class= "filter-option "> Сетка</p>
            <label>
+            <p>
              <input type = "radio" name = "type-of-grid" value = "a" checked>
-            <p class= "filter-choice"> Адаптивная</p>
+             <span class= "filter-choice"> Адаптивная</span>
+            </p>
            </label>
            <label>
+            <p>
              <input type = "radio" name = "type-of-grid" value = "b">
-             <p class= "filter-choice">Фиксированная</p>
+             <span class= "filter-choice">Фиксированная</span>
+            </p>
            </label>
            <label>
+            <p>
              <input type = "radio" name = "type-of-grid" value = "c">
-             <p class= "filter-choice">Резиновая</p>
+             <span class= "filter-choice">Резиновая</span>
+            </p>
            </label>
-         </form>
        </div>
        <div class="specific-features">
-         <form action="#" method="post">
            <p class= "filter-option ">Особенности:</p>
            <label>
+             <p>
               <input type="checkbox" name = "sld" checked>
-              <p class= "filter-choice">  Слайдер</p>
+              <span class= "filter-choice">  Слайдер</span>
            </label>
            <label>
-            <input type="checkbox" name = "block-of-advantage" >
-            <p class= "filter-choice">  Блок преимуществ</p>
+            <p>
+             <input type="checkbox" name = "block-of-advantage" >
+             <span class= "filter-choice">  Блок преимуществ</span>
+            </p>
           </label>
           <label>
+           <p>
             <input type="checkbox" name = "news" checked>
-            <p class= "filter-choice">Новости</p>
+            <span class= "filter-choice">Новости</span>
+           </p>
           </label>
           <label>
+           <p>
             <input name = "gallery" type="checkbox" >
-            <p>Галерея</p>
+            <span>Галерея</span>
+          </p>
           </label>
           <label>
+           <p>
             <input type="checkbox" name = "basket" >
-            <p>Корзина</p>
-          </label>
-          <div class="show">
+            <span>Корзина</span>
+          </p>
+        </label>
+        <div class="show">
              <input type = "submit" value="Показать">
           </div>
         </form>
     </div>
-    <div class="selection-result">
-      <div class="sort">
-      <p class="sort">Сортировать:</p>
-      <ul>
-       <li><a class="show-btn" href="#"><p class="sort">По цене</p></a></li>
-       <li><a class="show-btn" href="#"><p class="sort">По типу</p></a></li>
-       <li><a class="show-btn" href="#"><p class="sort">По функционалу</p></a></li>
+  </div>
+</div>
+  <div class="selection-result">
+      <div class="sort-div">
+      <span class="sort">Сортировать:</span>
+      <ul class="sort-ul">
+       <li class="sort-li"><a class="show-btn" href="#"><p class="sort">По цене</p></a></li>
+       <li class="sort-li"><a class="show-btn" href="#"><p class="sort">По типу</p></a></li>
+       <li class="sort-li"><a class="show-btn" href="#"><p class="sort">По функционалу</p></a></li>
      </ul>
+     <div class = "indicators">
+       <div class="before">
+       </div>
+       <div class="after">
+       </div>
+    </div>
    </div>
    <div class="result-table">
-     <ul>
-       <li><a class="img-choice" href="#">  <img src="img/table-img1.png" width="368" height="204" alt="Картинка макета">
+     <ul class ="result-table-ul clearfix">
+       <li class ="result-table-li"><a class="img-choice" href="#">  <img src="img/table-img1.png" width="240" height="239" alt="Картинка макета">
          <div class="div-on-img-choice">
            <p class="div-on-img-choice-title">Sunset</p>
            <p class = "div-on-img-choice-text">Интернет-магазин с личным кабинетом</p>
@@ -117,7 +139,7 @@
            </div>
          </div>
         </a></li>
-       <li><a class="img-choice" href="#"><img src="img/table-img2.png" width="368" height="204" alt="Картинка макета">
+       <li class ="result-table-li"><a class="img-choice" href="#"><img src="img/table-img2.png" wwidth="240" height="239" alt="Картинка макета">
          <div class="div-on-img-choice">
            <p class="div-on-img-choice-title">Sunset</p>
            <p class = "div-on-img-choice-text">Интернет-магазин с личным кабинетом</p>
@@ -126,7 +148,7 @@
            </div>
          </div>
        </a></li>
-       <li><a class="img-choice" href="#"><img src="img/table-img3.png" width="368" height="204" alt="Картинка макета">
+       <li class ="result-table-li"><a class="img-choice" href="#"><img src="img/table-img3.png" width="240" height="239" alt="Картинка макета">
          <div class="div-on-img-choice">
            <p class="div-on-img-choice-title">Sunset</p>
            <p class = "div-on-img-choice-text">Интернет-магазин с личным кабинетом</p>
@@ -135,7 +157,7 @@
            </div>
          </div>
        </a></li>
-       <li><a class="img-choice" href="#"><img src="img/table-img4.png" width="368" height="204" alt="Картинка макета">
+       <li class ="result-table-li"><a class="img-choice" href="#"><img src="img/table-img4.png" width="240" height="239" alt="Картинка макета">
          <div class="div-on-img-choice">
            <p class="div-on-img-choice-title">Sunset</p>
            <p class = "div-on-img-choice-text">Интернет-магазин с личным кабинетом</p>
@@ -144,7 +166,7 @@
            </div>
          </div>
        </a></li>
-       <li><a class="img-choice" href="#"><img src="img/table-img5.png" width="368" height="204" alt="Картинка макета">
+       <li class ="result-table-li"><a class="img-choice" href="#"><img src="img/table-img5.png" width="240" height="239" alt="Картинка макета">
          <div class="div-on-img-choice">
            <p class="div-on-img-choice-title">Sunset</p>
            <p class = "div-on-img-choice-text">Интернет-магазин с личным кабинетом</p>
@@ -153,7 +175,7 @@
            </div>
          </div>
        </a></li>
-       <li><a class="img-choice" href="#"><img src="img/table-img6.png" width="368" height="204" alt="Картинка макета">
+       <li class ="result-table-li"><a class="img-choice" href="#"><img src="img/table-img6.png" width="240" height="239" alt="Картинка макета">
          <div class="div-on-img-choice">
            <p class="div-on-img-choice-title">Sunset</p>
            <p class = "div-on-img-choice-text">Интернет-магазин с личным кабинетом</p>
@@ -165,33 +187,35 @@
     </ul>
   </div>
   <div class="number-of-page">
-      <ul>
-        <li><a class = "page-nmb" href="#">1</a></li>
-        <li><a class = "page-nmb"  href="#">2</a></li>
-        <li><a class = "page-nmb"  href="#">3</a></li>
-        <li><a class = "page-nmb"  href="#">Следующая</a></li>
+      <ul class="number-of-page-ul ">
+        <li class="number-of-page-li"><a class = "page-nmb" href="#">1</a></li>
+        <li class="number-of-page-li"><a class = "page-nmb"  href="#">2</a></li>
+        <li class="number-of-page-li"><a class = "page-nmb"  href="#">3</a></li>
+        <li class="number-of-page-li"><a class = "page-nmb"  href="#">Следующая</a></li>
       </ul>
     </div>
   </div>
  </main>
  <div class="map">
+  <div class="map-info container">
    <div class="address">
      <p>NERDS DIZIGN STUDIO</p>
      <p class = "address-text">191186, Санкт-Петербург, ул. Б.Коншенная, д. 19/8</p>
      <p class = "address-text"> тел. +7 (812) 275-75-75</p>
+   </div>
      <div class="write-us-btn">
        <a class="know-btn"  href="#">Напишите нам</a>
      </div>
    </div>
  </div>
   <footer class="main-footer">
-    <div class="container">
-    <section class="footer-social">
+    <div class="container clearfix">
+    <section class="footer-social-left">
          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
      </section>
-     <section class="footer-social">
+     <section class="footer-social-right">
        <span class="lets-friend">Давайте дружить, это выгодно!</span>
       <p class="about-us-text">Скидка 10% для друзей из социальных сетей</p>
      </section>
