@@ -209,6 +209,7 @@ h3 {
 }
 .button-action {
   display:inline-block;
+  vertical-align: top;
   padding-top:10px;
   font-size:  18px;
   line-height: 8.56px;
@@ -271,6 +272,7 @@ h3 {
 .option-offers {
   position:relative;
   display:inline-block;
+  vertical-align: top;
   min-height: 322px;
   float:left;
   width:240px;
@@ -364,6 +366,7 @@ margin-right:70px;
 .result-table-li {
   position:relative;
   display: inline-block;
+  vertical-align: top;
   margin-right: 85px;
   margin-bottom: 100px;
 }
@@ -447,15 +450,18 @@ margin-right:70px;
 }
 .sort-li {
   display: inline-block;
+  vertical-align: top;
   margin-right: 18px;
 }
 .sort-ul {
   display: inline-block;
+  vertical-align: top;
   padding:0;
   margin:0;
 }
 .number-of-page-li {
   display: inline-block;
+  vertical-align: top;
 }
 .number-of-page-ul {
   padding:0;
@@ -493,9 +499,9 @@ margin-right:70px;
   height: 60px;
   margin: 0 0px;
   margin-right:26px;
+  vertical-align: top;
 
   font-size: 0;
-  vertical-align: top;
   text-decoration: none;
 
   background: #e1e1e1 url("../img/sprite.png") no-repeat center;
@@ -956,6 +962,7 @@ input:checked + .filter-choice-specific::before {
 .price-controls label {
   font-size: 16px;
   display: inline-block;
+  vertical-align: top;
   width: 50%;
 }
 .max-price {
