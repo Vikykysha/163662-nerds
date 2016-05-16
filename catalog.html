@@ -3,13 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/normalize.css">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class = "main-header">
       <div class="container clearfix">
         <div class="iindex-logo">
-          <a class="img-logos" href="#">  <img src="img/nerdslogo.png" width="140" height="60" alt="Логотип Нердс»"></a>
+          <a class="img-logos" href="#">  <img src="img/nerdslogo.png" width="140" height="55" alt="Логотип Нердс»"></a>
         </div>
         <nav class="main-navigation">
         <ul  class="main-navigation-ul">
@@ -22,12 +24,12 @@
             <li class="main-navigation-li">
               <a class = "main-navigation-link" href="#">Магазин</a>
             </li>
-            <li class="main-navigation-li">
+            <li class="main-navigation-li contact">
               <a class = "main-navigation-link" href="#">Контакты</a>
             </li>
           </ul>
         </nav>
-        <div class="user-block">
+        <div class="user-block catalog-user-block">
           <a class = "main-navigation-link"  href="#">Корзина</a>
         </div>
         <div class="greetings">
@@ -35,7 +37,8 @@
         </div>
       </div>
     </header>
-    <main class="container clearfix">
+  <div class="wrap">
+    <main class="container clearfix catalog-cont">
     <div class="selection clearfix">
       <div class="detail-choice ">
         <div class="filter clearfix">
@@ -58,19 +61,19 @@
          <p class= "filter-option "> Сетка</p>
            <label>
             <p>
-             <input type = "radio" name = "type-of-grid" value = "a" checked>
+             <input type = "radio" name = "type-of-grid" value = "a"  class="radio-input" checked>
              <span class= "filter-choice"> Адаптивная</span>
             </p>
            </label>
            <label>
             <p>
-             <input type = "radio" name = "type-of-grid" value = "b">
+             <input type = "radio" name = "type-of-grid" value = "b"  class="radio-input">
              <span class= "filter-choice">Фиксированная</span>
             </p>
            </label>
            <label>
             <p>
-             <input type = "radio" name = "type-of-grid" value = "c">
+             <input type = "radio" name = "type-of-grid" value = "c"  class="radio-input">
              <span class= "filter-choice">Резиновая</span>
             </p>
            </label>
@@ -79,35 +82,36 @@
            <p class= "filter-option ">Особенности:</p>
            <label>
              <p>
-              <input type="checkbox" name = "sld" checked>
-              <span class= "filter-choice">  Слайдер</span>
+              <input type="checkbox" name = "sld" class="check-input" checked>
+              <span class= "filter-choice-specific">  Слайдер</span>
+            </p>
            </label>
            <label>
             <p>
-             <input type="checkbox" name = "block-of-advantage" >
-             <span class= "filter-choice">  Блок преимуществ</span>
+             <input type="checkbox" name = "block-of-advantage" class="check-input" >
+             <span class= "filter-choice-specific">  Блок преимуществ</span>
             </p>
           </label>
           <label>
            <p>
-            <input type="checkbox" name = "news" checked>
-            <span class= "filter-choice">Новости</span>
+            <input type="checkbox" name = "news" checked class="check-input" >
+            <span class= "filter-choice-specific">Новости</span>
+           </p>
+          </label>
+          <label>
+            <p>
+             <input name = "gallery" type="checkbox" class="check-input" >
+             <span class= "filter-choice-specific">Галерея</span>
            </p>
           </label>
           <label>
            <p>
-            <input name = "gallery" type="checkbox" >
-            <span>Галерея</span>
-          </p>
-          </label>
-          <label>
-           <p>
-            <input type="checkbox" name = "basket" >
-            <span>Корзина</span>
+            <input type="checkbox" name = "basket" class="check-input" >
+            <span class= "filter-choice-specific">Корзина</span>
           </p>
         </label>
         <div class="show">
-             <input type = "submit" value="Показать">
+             <input type = "submit" value="Показать" class="btn input-btn">
           </div>
         </form>
     </div>
@@ -191,7 +195,7 @@
         <li class="number-of-page-li"><a class = "page-nmb" href="#">1</a></li>
         <li class="number-of-page-li"><a class = "page-nmb"  href="#">2</a></li>
         <li class="number-of-page-li"><a class = "page-nmb"  href="#">3</a></li>
-        <li class="number-of-page-li"><a class = "page-nmb"  href="#">Следующая</a></li>
+        <li class="number-of-page-li next"><a class = "page-nmb"  href="#">Следующая</a></li>
       </ul>
     </div>
   </div>
@@ -202,10 +206,10 @@
      <p>NERDS DIZIGN STUDIO</p>
      <p class = "address-text">191186, Санкт-Петербург, ул. Б.Коншенная, д. 19/8</p>
      <p class = "address-text"> тел. +7 (812) 275-75-75</p>
-   </div>
      <div class="write-us-btn">
-       <a class="know-btn"  href="#">Напишите нам</a>
+       <a class="btn btn-map"  href="#">Напишите нам</a>
      </div>
+    </div>
    </div>
  </div>
   <footer class="main-footer">
@@ -221,5 +225,6 @@
      </section>
    </div>
   </footer>
+</div>
 </body>
 </html>

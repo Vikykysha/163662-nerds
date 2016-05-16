@@ -3,13 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/normalize.css">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class = "main-header">
       <div class="container clearfix">
         <div class="iindex-logo">
-          <a class="img-logos" href="#">  <img src="img/nerdslogo.png" width="140" height="60" alt="Логотип Нердс»"></a>
+          <a class="img-logos" href="#">  <img src="img/nerdslogo.png" width="140" height="55" alt="Логотип Нердс»"></a>
         </div>
         <nav class="main-navigation">
          <ul  class="main-navigation-ul">
@@ -35,11 +37,11 @@
           <li class="clearfix">
            <div class="slider-text">
             <div class="definition">
-              <h1>Долго, дорого, скурпулезно</h1>
-              <p class="definition-text"> Математически выверенный дизайн для вашего сайта или приложения<p>
+              <p class="long-expesive">Долго, дорого, скурпулезно</p>
+              <p class="definition-text"> Математически выверенный дизайн для вашего сайта или приложения</p>
             </div>
             <div class="know-more-btn">
-              <a class="know-btn" href="#">Узнать больше</a>
+              <a class="btn know-btn" href="#">Узнать больше</a>
             </div>
           </div>
             <div class="slider-img">
@@ -52,48 +54,55 @@
         </div>
        </div>
       </header>
+      <div class="wrap">
       <main class="container">
-        <div class="option">
+        <div class="option clearfix">
           <ul class="offers">
+            <div class="divide">
+            </div>
+            <div class="divide2">
+            </div>
+            <div class="divide3">
+            </div>
             <li class="option-offers">
-                <img src="img/option-item1.png" width="240" height="124" alt="картинка веб-сайт»">
+                <img src="img/option-item1.png" width="240" height="127" alt="картинка веб-сайт»">
                 <div class="option-info">
                   <h3>Веб-сайты</h3>
                   <p class="option-info-text">Мир никогда не будет прежним, после того как увидит ваш сайт!</p>
                 </div>
                 <div class="option-btn">
-                  <a class="know-btn" href="#">Заказать</a>
+                  <a class="know-btn btn red" href="#">Заказать</a>
                 </div>
               </li>
               <li class="option-offers">
-                <img src="img/option-item2.png" width="240" height="124" alt="картинка приложения">
+                <img src="img/option-item2.png" width="240" height="127" alt="картинка приложения">
                 <div class="option-info">
                   <h3>Приложения</h3>
                   <p class="option-info-text">Покорите топ-10 приложений в AppStore и Google Play</p>
                </div>
                 <div class="option-btn-green">
-                   <a class="know-btn" href="#">Заказать</a>
+                   <a class="know-btn btn green" href="#">Заказать</a>
                 </div>
               </li>
               <li class="option-offers">
-                <img src="img/option-item3.png" width="240" height="124" alt="картинка презентации">
+                <img src="img/option-item3.png" width="240" height="127" alt="картинка презентации">
                 <div class="option-info">
                   <h3>Презентации</h3>
                   <p class="option-info-text">Вы даже не подозреваете, насколько вы изумительны!</p>
                 </div>
                 <div class="option-btn-yellow">
-                  <a class="know-btn" href="#">Заказать</a>
+                  <a class="know-btn btn yellow" href="#">Заказать</a>
                 </div>
               </li>
           </ul>
         </div>
         <div class="about-us">
           <div class="about-us-left">
-            <b><p class="about-us-left-title"> Мы - маленькая, но гордая студия из Краснодара</p><b>
+           <p class="about-us-left-title"> Мы - маленькая, но гордая студия из Краснодара</p>
             <p class="about-us-text">Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива. Работаем не
             покдадая рук, как роботы. </p>
-            <p class="about-us-text">выполняем заказы на разработку:</p>
-            <ul class"diff-opt">
+            <p class="about-us-text transform">выполняем заказы на разработку:</p>
+            <ul class="diff-opt">
               <li><p class="about-us-text">Веб-сайтов любой сложности</p></li>
               <li><p class="about-us-text">Мобильных приложений для iOS и Android</p></li>
               <li><p class="about-us-text">Слайдшоу и видео для корпоративных презентаций</p></li>
@@ -101,12 +110,12 @@
           </div>
         <div class="about-us-right">
          <div class="about-us-right-logo">
-           <a class="img-logos" href="#">  <img src="img/nerdslogo.png" width="190" height="80" alt="Логотип Нердс»"></a>
+           <a class="img-logos" href="#">  <img src="img/nerdslogo.png" width="200" height="80" alt="Логотип Нердс»"></a>
          </div>
           <div class="date">
             <p class = "since">SINCE 2004</p>
           </div>
-          <p class="about-us-text">как мы работаем:</p>
+          <p class="about-us-text transform">как мы работаем:</p>
           <ul class="how-we-work">
             <li><p class="about-us-text">С самоотдачей 146%</p></li>
             <li><p class="about-us-text">Соблюдая сроки на 100%</p></li>
@@ -122,24 +131,24 @@
        </div>
      </div>
    </main>
-   <div class="map ">
-    <div class="map-info container">
+   <div class="map">
+    <div class="map-info container ">
      <div class="address">
        <p>NERDS DIZIGN STUDIO</p>
        <p class = "address-text">191186, Санкт-Петербург, ул. Б.Коншенная, д. 19/8</p>
        <p class = "address-text"> тел. +7 (812) 275-75-75</p>
+       <div class="write-us-btn">
+         <a class=" btn btn-map"  href="#">Напишите нам</a>
+       </div>
      </div>
-     <div class="write-us-btn">
-         <a class="know-btn"  href="#">Напишите нам</a>
-      </div>
     </div>
    </div>
     <footer class="main-footer">
       <div class="container clearfix">
-      <section class="footer-social-left">
-           <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-           <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-           <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+      <section class="footer-social-left ">
+        <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+        <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+        <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
        </section>
        <section class="footer-social-right">
          <span class="lets-friend">Давайте дружить, это выгодно!</span>
@@ -147,5 +156,6 @@
        </section>
      </div>
     </footer>
+  </div>
   </body>
  </html>
