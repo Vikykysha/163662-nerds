@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:500,400&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/normalize.css">
     <link href="css/style.css" rel="stylesheet">
   </head>
@@ -37,61 +37,61 @@
         </div>
       </div>
     </header>
-  <div class="wrap">
-    <main class="container clearfix catalog-cont">
-    <div class="selection clearfix">
-      <div class="detail-choice ">
-        <div class="filter clearfix">
-          <p class= "filter-option ">Стоимость:</p>
-          <form action="#" method="GET">
-          <div class="range-filter ">
-           <div class="range-controls ">
+    <div class="wrap">
+     <main class="container clearfix catalog-cont">
+      <div class="selection clearfix">
+       <div class="detail-choice ">
+        <form action="#" method="GET">
+         <div class="filter clearfix">
+           <p class= "filter-option ">Стоимость:</p>
+            <div class="range-filter ">
+             <div class="range-controls ">
                <div class="scale">
                  <div class="bar"></div>
-               </div>
-               <div class="toggle min-toggle"></div>
-               <div class="toggle max-toggle"></div>
-           </div>
-           <div class="price-controls ">
+                </div>
+                <div class="toggle min-toggle"></div>
+                <div class="toggle max-toggle"></div>
+             </div>
+             <div class="price-controls ">
               <label class="min-price">от <input name="min-price" type="text" value="0"></label>
-             <label class="max-price"> до <input name="max-price" type="text" value="15000"></label>
-           </div>
-       </div>
-     </div>
-     <div class="feautures">
-       <div class="type-of-grid">
-         <p class= "filter-option "> Сетка</p>
-           <label>
-            <p>
-             <input type = "radio" name = "type-of-grid" value = "a"  class="radio-input" checked>
-             <span class= "filter-choice"> Адаптивная</span>
-            </p>
+              <label class="max-price"> до <input name="max-price" type="text" value="15000"></label>
+             </div>
+          </div>
+        </div>
+       <div class="feautures">
+        <div class="type-of-grid">
+          <p class= "filter-option"> Сетка</p>
+            <label>
+              <p>
+                <input type = "radio" name = "type-of-grid" value = "a"  class="radio-input" checked>
+                <span class= "filter-choice"> Адаптивная</span>
+              </p>
            </label>
            <label>
-            <p>
-             <input type = "radio" name = "type-of-grid" value = "b"  class="radio-input">
-             <span class= "filter-choice">Фиксированная</span>
-            </p>
+              <p>
+               <input type = "radio" name = "type-of-grid" value = "b"  class="radio-input">
+               <span class= "filter-choice">Фиксированная</span>
+              </p>
            </label>
            <label>
-            <p>
-             <input type = "radio" name = "type-of-grid" value = "c"  class="radio-input">
-             <span class= "filter-choice">Резиновая</span>
-            </p>
-           </label>
+              <p>
+               <input type = "radio" name = "type-of-grid" value = "c"  class="radio-input">
+               <span class= "filter-choice">Резиновая</span>
+              </p>
+         </label>
        </div>
        <div class="specific-features">
-           <p class= "filter-option ">Особенности:</p>
+           <p class= "filter-option">Особенности:</p>
            <label>
              <p>
-              <input type="checkbox" name = "sld" class="check-input" checked>
-              <span class= "filter-choice-specific">  Слайдер</span>
-            </p>
+                <input type="checkbox" name = "sld" class="check-input" checked>
+                <span class= "filter-choice-specific">  Слайдер</span>
+             </p>
            </label>
            <label>
             <p>
-             <input type="checkbox" name = "block-of-advantage" class="check-input" >
-             <span class= "filter-choice-specific">  Блок преимуществ</span>
+               <input type="checkbox" name = "block-of-advantage" class="check-input" >
+               <span class= "filter-choice-specific">  Блок преимуществ</span>
             </p>
           </label>
           <label>
@@ -108,25 +108,25 @@
           </label>
           <label>
            <p>
-            <input type="checkbox" name = "basket" class="check-input" >
-            <span class= "filter-choice-specific">Корзина</span>
+              <input type="checkbox" name = "basket" class="check-input" >
+              <span class= "filter-choice-specific">Корзина</span>
           </p>
         </label>
         <div class="show">
              <input type = "submit" value="Показать" class="btn input-btn">
-          </div>
-        </form>
-    </div>
-  </div>
-</div>
-  <div class="selection-result">
-      <div class="sort-div">
-      <span class="sort">Сортировать:</span>
-      <ul class="sort-ul">
+        </div>
+       </div>
+   </div>
+  </form>
+ </div>
+<div class="selection-result">
+  <div class="sort-div">
+    <span class="sort">Сортировать:</span>
+    <ul class="sort-ul">
        <li class="sort-li"><a class="show-btn" href="#"><p class="sort">По цене</p></a></li>
        <li class="sort-li"><a class="show-btn" href="#"><p class="sort">По типу</p></a></li>
        <li class="sort-li"><a class="show-btn" href="#"><p class="sort">По функционалу</p></a></li>
-     </ul>
+    </ul>
      <div class = "indicators">
        <div class="before">
        </div>
@@ -141,52 +141,57 @@
            <p class="div-on-img-choice-title">Sunset</p>
            <p class = "div-on-img-choice-text">Интернет-магазин с личным кабинетом</p>
            <div class="div-on-img-choice-button">
-                <a class="button-action" href="#"> Купить</a>
+                <span class="button-action" > Купить</span>
            </div>
          </div>
-        </a></li>
-       <li class ="result-table-li"><a class="img-choice" href="#"><img src="img/table-img2.png" wwidth="240" height="239" alt="Картинка макета">
+        </a>
+      </li>
+      <li class ="result-table-li"><a class="img-choice" href="#"><img src="img/table-img2.png" width="240" height="239" alt="Картинка макета">
          <div class="div-on-img-choice">
            <p class="div-on-img-choice-title">Sunset</p>
            <p class = "div-on-img-choice-text">Интернет-магазин с личным кабинетом</p>
            <div class="div-on-img-choice-button">
-                <a class="button-action" href="#"> Купить</a>
+                <span class="button-action" > Купить</span>
            </div>
          </div>
-       </a></li>
-       <li class ="result-table-li"><a class="img-choice" href="#"><img src="img/table-img3.png" width="240" height="239" alt="Картинка макета">
+       </a>
+     </li>
+     <li class ="result-table-li"><a class="img-choice" href="#"><img src="img/table-img3.png" width="240" height="239" alt="Картинка макета">
          <div class="div-on-img-choice">
+            <p class="div-on-img-choice-title">Sunset</p>
+            <p class = "div-on-img-choice-text">Интернет-магазин с личным кабинетом</p>
+            <div class="div-on-img-choice-button">
+                <span class="button-action" > Купить</span>
+            </div>
+         </div>
+       </a>
+     </li>
+      <li class ="result-table-li"><a class="img-choice" href="#"><img src="img/table-img4.png" width="240" height="239" alt="Картинка макета">
+        <div class="div-on-img-choice">
            <p class="div-on-img-choice-title">Sunset</p>
            <p class = "div-on-img-choice-text">Интернет-магазин с личным кабинетом</p>
            <div class="div-on-img-choice-button">
-                <a class="button-action" href="#"> Купить</a>
+                <span class="button-action"> Купить</span>
            </div>
-         </div>
-       </a></li>
-       <li class ="result-table-li"><a class="img-choice" href="#"><img src="img/table-img4.png" width="240" height="239" alt="Картинка макета">
-         <div class="div-on-img-choice">
-           <p class="div-on-img-choice-title">Sunset</p>
-           <p class = "div-on-img-choice-text">Интернет-магазин с личным кабинетом</p>
-           <div class="div-on-img-choice-button">
-                <a class="button-action" href="#"> Купить</a>
-           </div>
-         </div>
-       </a></li>
+       </div>
+      </a>
+     </li>
        <li class ="result-table-li"><a class="img-choice" href="#"><img src="img/table-img5.png" width="240" height="239" alt="Картинка макета">
          <div class="div-on-img-choice">
            <p class="div-on-img-choice-title">Sunset</p>
            <p class = "div-on-img-choice-text">Интернет-магазин с личным кабинетом</p>
            <div class="div-on-img-choice-button">
-                <a class="button-action" href="#"> Купить</a>
+                <span class="button-action"> Купить</span>
            </div>
          </div>
-       </a></li>
+       </a>
+     </li>
        <li class ="result-table-li"><a class="img-choice" href="#"><img src="img/table-img6.png" width="240" height="239" alt="Картинка макета">
          <div class="div-on-img-choice">
            <p class="div-on-img-choice-title">Sunset</p>
            <p class = "div-on-img-choice-text">Интернет-магазин с личным кабинетом</p>
            <div class="div-on-img-choice-button">
-                <a class="button-action" href="#"> Купить</a>
+                <span class="button-action"> Купить</span>
            </div>
          </div>
        </a></li>
@@ -201,11 +206,12 @@
       </ul>
     </div>
   </div>
+</div>
  </main>
  <div class="map">
   <div class="map-info container">
    <div class="address">
-     <p>NERDS DIZIGN STUDIO</p>
+     <p class="nerds-map">NERDS DIZIGN STUDIO</p>
      <p class = "address-text">191186, Санкт-Петербург, ул. Б.Коншенная, д. 19/8</p>
      <p class = "address-text"> тел. +7 (812) 275-75-75</p>
      <div class="write-us-btn">
@@ -214,19 +220,19 @@
     </div>
    </div>
  </div>
-  <footer class="main-footer">
-    <div class="container clearfix">
+<footer class="main-footer">
+  <div class="container clearfix">
     <section class="footer-social-left">
          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
      </section>
-     <section class="footer-social-right">
-       <span class="lets-friend">Давайте дружить, это выгодно!</span>
-      <p class="about-us-text">Скидка 10% для друзей из социальных сетей</p>
-     </section>
-   </div>
-  </footer>
-</div>
-</body>
+      <section class="footer-social-right">
+         <span class="lets-friend">Давайте дружить, это выгодно!</span>
+         <p class="about-us-text">Скидка 10% для друзей из социальных сетей</p>
+      </section>
+     </div>
+   </footer>
+  </div>
+ </body>
 </html>
