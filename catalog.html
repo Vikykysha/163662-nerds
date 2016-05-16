@@ -43,21 +43,23 @@
       <div class="detail-choice ">
         <div class="filter clearfix">
           <p class= "filter-option ">Стоимость:</p>
+          <form action="#" method="GET">
           <div class="range-filter ">
            <div class="range-controls ">
-               <div class="scale"></div>
+               <div class="scale">
+                 <div class="bar"></div>
+               </div>
                <div class="toggle min-toggle"></div>
                <div class="toggle max-toggle"></div>
            </div>
            <div class="price-controls about-us-text">
-             от <input class="min-price" type="text" value="0">
-                 до <input class="max-price" type="text" value="15 000">
+              <label class="min-price">от <input name="min-price" type="text" value="0"></label>
+             <label class="max-price">до <input name="max-price" type="text" value="15000"></label>
            </div>
        </div>
      </div>
      <div class="feautures">
        <div class="type-of-grid">
-         <form action="#" method="post">
          <p class= "filter-option "> Сетка</p>
            <label>
             <p>
