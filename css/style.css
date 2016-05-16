@@ -450,12 +450,12 @@ margin-right:70px;
 }
 .sort-li {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
   margin-right: 18px;
 }
 .sort-ul {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
   padding:0;
   margin:0;
 }
@@ -986,4 +986,7 @@ input:checked + .filter-choice-specific::before {
 }
 .header-catalog {
   margin-bottom:0;
+}
+.main-footer {
+  padding-bottom:50px;
 }
