@@ -24,6 +24,7 @@ main {
 }
 .main-navigation-link:active {
   opacity:0.4;
+  border-bottom:2px solid #fb565a;
 }
 
 h1 {
@@ -36,7 +37,7 @@ h1 {
   font-weight: 500;
   text-align: center;
 }
-.main-navigation-link {
+.main-navigation-link-a {
   font-size:  14px;
 }
 .user-block a::before {
@@ -426,6 +427,7 @@ width: 240px;
   line-height: 0;
   border-radius: 3px;
   background-color: #f1f1f1;
+  border-top:2px solid transparent;
 }
 .number-of-page-li:hover {
   background-color: #f1f1f1;
@@ -823,8 +825,8 @@ input:checked + .filter-choice-specific::before {
 .sort-div:active::before{
   content: "";
   position: absolute;
-  right:-5px;
-  top:13px;
+  right:8px;
+  top:15px;
 
   width: 12px;
   height: 12px;
@@ -835,8 +837,8 @@ input:checked + .filter-choice-specific::before {
 .sort-div:active::after{
   content: "";
   position: absolute;
-  right:10px;
-  top:13px;
+  right:24px;
+  top:15px;
 
   width: 12px;
   height: 12px;
@@ -867,7 +869,7 @@ input:checked + .filter-choice-specific::before {
 }
 .show-btn  .sort:active {
   opacity:1;
-  border-bottom: none;
+  border-bottom:2px solid transparent;
 }
 .divide {
   position:absolute;
